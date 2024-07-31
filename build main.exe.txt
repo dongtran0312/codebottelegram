@@ -1,0 +1,7 @@
+cd D:\Telegram\Bot_telegram
+
+rd /s /q dist
+rd /s /q build
+
+
+pyinstaller --onefile main.py
